@@ -12,28 +12,38 @@ switch (messageCountry) {
   case china:
     price = 100;
     messageResultCountry = "в Китай";
+    alert(`Доставка ${messageResultCountry} будет стоить ${price} кредитов`);
+
     break;
   case chili:
     price = 250;
     messageResultCountry = "в Чили";
+    alert(`Доставка ${messageResultCountry} будет стоить ${price} кредитов`);
+
     break;
   case australia:
     price = 170;
     messageResultCountry = "в Австралию";
+    alert(`Доставка ${messageResultCountry} будет стоить ${price} кредитов`);
+
     break;
   case india:
     price = 80;
     messageResultCountry = "в Индию";
+    alert(`Доставка ${messageResultCountry} будет стоить ${price} кредитов`);
+
     break;
   case jamaica:
     price = 120;
     messageResultCountry = "на Ямайку";
+    alert(`Доставка ${messageResultCountry} будет стоить ${price} кредитов`);
+
     break;
 
   default:
     alert("В вашей стране доставка не доступна.");
+    break;
 }
-alert(`Доставка ${messageResultCountry} будет стоить ${price} кредитов`);
 
 // if (
 //   messageCountry === china ||
